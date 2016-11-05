@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED46A55A1DCE08AA00BBEB5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46A5591DCE08AA00BBEB5E /* AppDelegate.swift */; };
+		ED46A55C1DCE08AA00BBEB5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46A55B1DCE08AA00BBEB5E /* ViewController.swift */; };
+		ED46A55F1DCE08AA00BBEB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED46A55D1DCE08AA00BBEB5E /* Main.storyboard */; };
+		ED46A5611DCE08AA00BBEB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED46A5601DCE08AA00BBEB5E /* Assets.xcassets */; };
+		ED46A5641DCE08AA00BBEB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED46A5621DCE08AA00BBEB5E /* LaunchScreen.storyboard */; };
+		ED46A56F1DCE08AA00BBEB5E /* DartsHomeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46A56E1DCE08AA00BBEB5E /* DartsHomeiOSTests.swift */; };
+		ED46A57A1DCE08AA00BBEB5E /* DartsHomeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46A5791DCE08AA00BBEB5E /* DartsHomeiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED46A56B1DCE08AA00BBEB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED46A54E1DCE08AA00BBEB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED46A5551DCE08AA00BBEB5E;
+			remoteInfo = DartsHomeiOS;
+		};
+		ED46A5761DCE08AA00BBEB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED46A54E1DCE08AA00BBEB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED46A5551DCE08AA00BBEB5E;
+			remoteInfo = DartsHomeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED46A5561DCE08AA00BBEB5E /* DartsHomeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DartsHomeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46A5591DCE08AA00BBEB5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED46A55B1DCE08AA00BBEB5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED46A55E1DCE08AA00BBEB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED46A5601DCE08AA00BBEB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED46A5631DCE08AA00BBEB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED46A5651DCE08AA00BBEB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED46A56A1DCE08AA00BBEB5E /* DartsHomeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DartsHomeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46A56E1DCE08AA00BBEB5E /* DartsHomeiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsHomeiOSTests.swift; sourceTree = "<group>"; };
+		ED46A5701DCE08AA00BBEB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED46A5751DCE08AA00BBEB5E /* DartsHomeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DartsHomeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46A5791DCE08AA00BBEB5E /* DartsHomeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DartsHomeiOSUITests.swift; sourceTree = "<group>"; };
+		ED46A57B1DCE08AA00BBEB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED46A5531DCE08AA00BBEB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5671DCE08AA00BBEB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5721DCE08AA00BBEB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED46A54D1DCE08AA00BBEB5E = {
+			isa = PBXGroup;
+			children = (
+				ED46A5581DCE08AA00BBEB5E /* DartsHomeiOS */,
+				ED46A56D1DCE08AA00BBEB5E /* DartsHomeiOSTests */,
+				ED46A5781DCE08AA00BBEB5E /* DartsHomeiOSUITests */,
+				ED46A5571DCE08AA00BBEB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED46A5571DCE08AA00BBEB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A5561DCE08AA00BBEB5E /* DartsHomeiOS.app */,
+				ED46A56A1DCE08AA00BBEB5E /* DartsHomeiOSTests.xctest */,
+				ED46A5751DCE08AA00BBEB5E /* DartsHomeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED46A5581DCE08AA00BBEB5E /* DartsHomeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A5591DCE08AA00BBEB5E /* AppDelegate.swift */,
+				ED46A55B1DCE08AA00BBEB5E /* ViewController.swift */,
+				ED46A55D1DCE08AA00BBEB5E /* Main.storyboard */,
+				ED46A5601DCE08AA00BBEB5E /* Assets.xcassets */,
+				ED46A5621DCE08AA00BBEB5E /* LaunchScreen.storyboard */,
+				ED46A5651DCE08AA00BBEB5E /* Info.plist */,
+			);
+			path = DartsHomeiOS;
+			sourceTree = "<group>";
+		};
+		ED46A56D1DCE08AA00BBEB5E /* DartsHomeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A56E1DCE08AA00BBEB5E /* DartsHomeiOSTests.swift */,
+				ED46A5701DCE08AA00BBEB5E /* Info.plist */,
+			);
+			path = DartsHomeiOSTests;
+			sourceTree = "<group>";
+		};
+		ED46A5781DCE08AA00BBEB5E /* DartsHomeiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED46A5791DCE08AA00BBEB5E /* DartsHomeiOSUITests.swift */,
+				ED46A57B1DCE08AA00BBEB5E /* Info.plist */,
+			);
+			path = DartsHomeiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED46A5551DCE08AA00BBEB5E /* DartsHomeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED46A57E1DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOS" */;
+			buildPhases = (
+				ED46A5521DCE08AA00BBEB5E /* Sources */,
+				ED46A5531DCE08AA00BBEB5E /* Frameworks */,
+				ED46A5541DCE08AA00BBEB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DartsHomeiOS;
+			productName = DartsHomeiOS;
+			productReference = ED46A5561DCE08AA00BBEB5E /* DartsHomeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED46A5691DCE08AA00BBEB5E /* DartsHomeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED46A5811DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOSTests" */;
+			buildPhases = (
+				ED46A5661DCE08AA00BBEB5E /* Sources */,
+				ED46A5671DCE08AA00BBEB5E /* Frameworks */,
+				ED46A5681DCE08AA00BBEB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED46A56C1DCE08AA00BBEB5E /* PBXTargetDependency */,
+			);
+			name = DartsHomeiOSTests;
+			productName = DartsHomeiOSTests;
+			productReference = ED46A56A1DCE08AA00BBEB5E /* DartsHomeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED46A5741DCE08AA00BBEB5E /* DartsHomeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED46A5841DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOSUITests" */;
+			buildPhases = (
+				ED46A5711DCE08AA00BBEB5E /* Sources */,
+				ED46A5721DCE08AA00BBEB5E /* Frameworks */,
+				ED46A5731DCE08AA00BBEB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED46A5771DCE08AA00BBEB5E /* PBXTargetDependency */,
+			);
+			name = DartsHomeiOSUITests;
+			productName = DartsHomeiOSUITests;
+			productReference = ED46A5751DCE08AA00BBEB5E /* DartsHomeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED46A54E1DCE08AA00BBEB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = haya_channel;
+				TargetAttributes = {
+					ED46A5551DCE08AA00BBEB5E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					ED46A5691DCE08AA00BBEB5E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED46A5551DCE08AA00BBEB5E;
+					};
+					ED46A5741DCE08AA00BBEB5E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED46A5551DCE08AA00BBEB5E;
+					};
+				};
+			};
+			buildConfigurationList = ED46A5511DCE08AA00BBEB5E /* Build configuration list for PBXProject "DartsHomeiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED46A54D1DCE08AA00BBEB5E;
+			productRefGroup = ED46A5571DCE08AA00BBEB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED46A5551DCE08AA00BBEB5E /* DartsHomeiOS */,
+				ED46A5691DCE08AA00BBEB5E /* DartsHomeiOSTests */,
+				ED46A5741DCE08AA00BBEB5E /* DartsHomeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED46A5541DCE08AA00BBEB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A5641DCE08AA00BBEB5E /* LaunchScreen.storyboard in Resources */,
+				ED46A5611DCE08AA00BBEB5E /* Assets.xcassets in Resources */,
+				ED46A55F1DCE08AA00BBEB5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5681DCE08AA00BBEB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5731DCE08AA00BBEB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED46A5521DCE08AA00BBEB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A55C1DCE08AA00BBEB5E /* ViewController.swift in Sources */,
+				ED46A55A1DCE08AA00BBEB5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5661DCE08AA00BBEB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A56F1DCE08AA00BBEB5E /* DartsHomeiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED46A5711DCE08AA00BBEB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46A57A1DCE08AA00BBEB5E /* DartsHomeiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED46A56C1DCE08AA00BBEB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED46A5551DCE08AA00BBEB5E /* DartsHomeiOS */;
+			targetProxy = ED46A56B1DCE08AA00BBEB5E /* PBXContainerItemProxy */;
+		};
+		ED46A5771DCE08AA00BBEB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED46A5551DCE08AA00BBEB5E /* DartsHomeiOS */;
+			targetProxy = ED46A5761DCE08AA00BBEB5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED46A55D1DCE08AA00BBEB5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46A55E1DCE08AA00BBEB5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED46A5621DCE08AA00BBEB5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46A5631DCE08AA00BBEB5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED46A57C1DCE08AA00BBEB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED46A57D1DCE08AA00BBEB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED46A57F1DCE08AA00BBEB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DartsHomeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED46A5801DCE08AA00BBEB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DartsHomeiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED46A5821DCE08AA00BBEB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DartsHomeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DartsHomeiOS.app/DartsHomeiOS";
+			};
+			name = Debug;
+		};
+		ED46A5831DCE08AA00BBEB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DartsHomeiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DartsHomeiOS.app/DartsHomeiOS";
+			};
+			name = Release;
+		};
+		ED46A5851DCE08AA00BBEB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DartsHomeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DartsHomeiOS;
+			};
+			name = Debug;
+		};
+		ED46A5861DCE08AA00BBEB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DartsHomeiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haya-channel.DartsHomeiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DartsHomeiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED46A5511DCE08AA00BBEB5E /* Build configuration list for PBXProject "DartsHomeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A57C1DCE08AA00BBEB5E /* Debug */,
+				ED46A57D1DCE08AA00BBEB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED46A57E1DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A57F1DCE08AA00BBEB5E /* Debug */,
+				ED46A5801DCE08AA00BBEB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED46A5811DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A5821DCE08AA00BBEB5E /* Debug */,
+				ED46A5831DCE08AA00BBEB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED46A5841DCE08AA00BBEB5E /* Build configuration list for PBXNativeTarget "DartsHomeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46A5851DCE08AA00BBEB5E /* Debug */,
+				ED46A5861DCE08AA00BBEB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED46A54E1DCE08AA00BBEB5E /* Project object */;
+}
